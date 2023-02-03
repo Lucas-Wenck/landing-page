@@ -16,6 +16,11 @@ a{
     font-size: 18px;
 }
 
+img{
+    height: auto;
+    width: 480px;
+}
+
 .header{
     display: flex;
     gap: 16px;
@@ -59,4 +64,15 @@ a{
     margin-right: auto;
     font-size: 24px;
     color: #F9FAF8;
+}
+
+.sect1-content{
+    display: flex;
+    flex-direction: row;
+}
+
+.sect1-descript{
+    display: flex;
+    flex-wrap: wrap;
+    flex: 1;
 }
