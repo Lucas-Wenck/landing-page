@@ -101,3 +101,35 @@ img{
     color: #EEE;
     font-weight: 700;
 }
+
+.section2 .content{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.info-title{
+    font-size: 36px;
+    font-weight: 900;
+    margin-bottom: 30px;
+    margin-top: 12px;
+    color: #1F2937;
+}
+
+.info-images{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 52px;
+}
+.info{
+    max-width: 200px;
+}
+.info img{
+    width: 200px;
+    height: 150px;
+}
+.info-text{
+    margin-top: 8px;
+    margin-bottom: 12px;
+}
