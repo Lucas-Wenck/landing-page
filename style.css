@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 100vh;
+}
+
+.content{
+    max-width: 960px;
+    margin: auto;
+}
+
+.section1{
+    background-color: #1F2937;
+    flex: 1 0 auto;
+}
+
+.section2{
+    background-color: white;
+    flex: 1 0 auto;
+}
+
+.section3{
+    background-color: #E5E7EB;
+    flex: 1 0 auto;
+}
+
+.section4{
+    background-color: white;
+    flex: 1 0 auto;
+}
+
+.footer{
+    background-color: #1F2937;
+    height: 72px;
+}
