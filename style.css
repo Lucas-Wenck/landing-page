@@ -183,7 +183,15 @@ img{
     font-weight: 700;
     color: #eee;
 }
+
 .call-text{
     font-size: 16px;
     color: #eee;
+}
+
+.footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #E5E7EB;
 }
