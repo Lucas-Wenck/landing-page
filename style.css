@@ -69,10 +69,35 @@ img{
 .sect1-content{
     display: flex;
     flex-direction: row;
+    gap: 8px;
 }
 
 .sect1-descript{
     display: flex;
+    flex-direction: column;
     flex-wrap: wrap;
-    flex: 1;
+    width: 480px;
+    height: auto;
+    flex: 1 0 auto;
+    gap: 24px;
+}
+
+.sect1-main{
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: 900;
+}
+
+.sect1-secondary{
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.sect1-descript button{
+    background-color: #3882F6;
+    align-self: flex-start;
+    padding: 8px 16px;
+    border-radius: 15%;
+    color: #EEE;
+    font-weight: 700;
 }
