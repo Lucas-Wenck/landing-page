@@ -9,6 +9,7 @@ body{
     justify-content: space-evenly;
     min-height: 100vh;
     max-height: 200vh;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 a{
